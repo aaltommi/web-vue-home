@@ -1,4 +1,6 @@
-# web-home
+# web-vue-home
+
+Trying to do something for the millionth time :D
 
 ## Project setup
 ```
