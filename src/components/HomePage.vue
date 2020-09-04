@@ -1,10 +1,6 @@
 <template>
     <div class="main">
-    <div class="card">
-        <img class="profile-pic" src="../assets/profile-pic2.jpg" alt="Tommi">
-        <p>Tommi Aalto</p>
-        <p>Software Engineer</p>
-    </div>
+    <ProfileCard></ProfileCard>
     <div class="content">
     <h1>Hello!</h1>
     <p>I've created online CV for you!</p>
@@ -23,10 +19,14 @@
 </template>
 
 <script>
+import ProfileCard from './ProfileCard.vue'
 export default {
   name: 'HomePage',
   props: {
     msg: String
+  },
+  components: {
+    ProfileCard
   }
 }
 </script>
@@ -37,18 +37,4 @@ template {
         
         background-image: url("../assets/background_tracks.jpg");
       }
-      
-      .card {
-        margin: auto;
-        width: 40%;
-        border: 1px solid black;
-      }
-      .profile-pic {
-        margin: 24px 48px 24px 48px;
-        width: 40%;
-        height: 40%;
-        border-radius: 50%;
-        border: 2px solid black;
-        text-align: center;
-      } 
 </style>
