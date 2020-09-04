@@ -3,10 +3,9 @@
     <header>
         <h3>Tommi Aalto</h3>
         <nav>
-            <a href="/html/">HTML</a> |
-            <a href="/css/">CSS</a> |
-            <a href="/js/">JavaScript</a> |
-            <a href="/python/">Python</a>
+            <a href="/html/">Blog</a> |
+            <a href="/css/">Projects</a> |
+            <a href="/js/">Contact</a>
         </nav>
     </header>
     <HomePage msg="Welcome to My Vue.js App"/>
@@ -25,6 +24,9 @@ export default {
 </script>
 
 <style>
+body {
+  background-image: url("./assets/background_tracks.jpg");
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -39,9 +41,11 @@ export default {
 header {
   display: flex;
   align-items: baseline;
+  border-bottom: 2px solid black;
 }
 nav {
   flex: 70%;
+
 }
 h3 {
   flex: 30%;

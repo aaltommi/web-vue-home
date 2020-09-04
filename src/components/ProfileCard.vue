@@ -5,6 +5,7 @@
         <p>Tommi Aalto</p>
         <p>Software Engineer. Currently working for Opentext in Tampere, Finland as an Test Automation / Software Engineer</p>
         <p>This is my cv. I'm open for new opportunities and challenges also abroad.</p>
+        <p> More text bla bla bal More text bla bla bal More text bla bla bal More text bla bla bal</p>
         </div>
     </div>
 </template>
@@ -22,13 +23,12 @@ export default {
     margin: auto;
     width: 80%;
     border-radius: 10px;
-    border: 1px solid black;
 }
 .profile-pic {
-    flex: 50%;
+    flex: 30%;
     margin: 24px 48px 24px 48px;
-    width: 20%;
-    height: 20%;
+    width: 10%;
+    height: 10%;
     border-radius: 50%;
     border: 2px solid black;
     text-align: center;
