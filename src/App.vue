@@ -37,7 +37,6 @@ export default {
   border-radius: 35px;
 }
 header {
-  border: 1px solid red;
   display: flex;
   align-items: baseline;
 }
