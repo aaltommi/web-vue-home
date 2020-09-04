@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to My Vue.js App"/>
+    <header>
+        <h3>Tommi Aalto</h3>
+        <nav>
+            <a href="/html/">HTML</a> |
+            <a href="/css/">CSS</a> |
+            <a href="/js/">JavaScript</a> |
+            <a href="/python/">Python</a>
+        </nav>
+    </header>
+    <HomePage msg="Welcome to My Vue.js App"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HomePage from './components/HomePage.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+  HomePage
   }
 }
 </script>
@@ -23,6 +31,20 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: linen;
+  margin: 24px 48px 24px 48px;
+  border: 1px solid black;
+  border-radius: 35px;
+}
+header {
+  border: 1px solid red;
+  display: flex;
+  align-items: baseline;
+}
+nav {
+  flex: 70%;
+}
+h3 {
+  flex: 30%;
 }
 </style>

@@ -1,14 +1,5 @@
 <template>
     <div class="main">
-    <header>
-        <h3>Tommi Aalto</h3>
-        <nav>
-            <a href="/html/">HTML</a> |
-            <a href="/css/">CSS</a> |
-            <a href="/js/">JavaScript</a> |
-            <a href="/python/">Python</a>
-        </nav>
-    </header>
     <div class="card">
         <img class="profile-pic" src="../assets/profile-pic2.jpg" alt="Tommi">
         <p>Tommi Aalto</p>
@@ -33,7 +24,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'HomePage',
   props: {
     msg: String
   }
@@ -46,12 +37,7 @@ template {
         
         background-image: url("../assets/background_tracks.jpg");
       }
-      .main {
-        background-color: linen;
-        margin: 24px 48px 24px 48px;
-        border: 1px solid black;
-        border-radius: 35px;
-      }
+      
       .card {
         margin: auto;
         width: 40%;
